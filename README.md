@@ -22,7 +22,7 @@ import (
 
 func main() {
     dsn, _ := mfile.ReadFile("consul://mysql_dsn")
-    pass, _ := mfile.ReadFile("vault://mysql_pass")
+    pass, _ := mfile.ReadFile("vault://mysql?password")
 
     c, _ := mysql.ParseDSN(string(dsn))
     c.Passwd = string(pass)
