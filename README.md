@@ -3,6 +3,8 @@
 mfile allows to easily read files from multiple locations easily. Provide a
 schema, import a provider which implements it, and you are good to go!
 
+[List of known providers](https://github.com/VoyTechnology/mfile/wiki/Integrations)
+
 ---
 
 ## Example
